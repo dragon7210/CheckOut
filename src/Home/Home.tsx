@@ -1,5 +1,7 @@
-import Clock from "../clock";
-import Payment from "../payment";
+import Clock from "../components/Clock";
+import Payment from "../components/Payment";
+import Contact from "../components/Contact";
+import Shipping from "../components/Shipping";
 
 const Home = () => {
   return (
@@ -14,6 +16,8 @@ const Home = () => {
         </div>
         <Clock />
         <Payment />
+        <Contact />
+        <Shipping />
       </div>
       <div className="bg-[#EFF0F54D]"></div>
     </div>

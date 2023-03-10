@@ -7,7 +7,7 @@ const Shipping = () => {
       <div className="mt-[20px]">
         <Input placeholder="Country" icon="point" topLabel="" />
       </div>
-      <div className="mt-[29px] flex">
+      <div className="mt-[29px] flex justify-between">
         <div className="mr-[16px]">
           <Input topLabel="First Name" placeholder="First Name" icon="man" />
         </div>
@@ -18,7 +18,7 @@ const Shipping = () => {
       <div className="mt-[20px]">
         <Input topLabel="" placeholder="Address" icon="address" />
       </div>
-      <div className="mt-[20px] flex">
+      <div className="mt-[20px] flex justify-between">
         <div className="mr-[16px]">
           <Input topLabel="" placeholder="City" icon="" />
         </div>

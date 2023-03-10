@@ -9,8 +9,8 @@ import Product from "../components/Product";
 
 const Home = () => {
   return (
-    <div className="flex max-w-[1110px] mx-auto">
-      <div className="bg-[#F5F5F5]  pr-[60px]">
+    <div className="grid grid-cols-2">
+      <div className="bg-[#F5F5F5]  pr-[60px] pl-[40%]">
         <p className="mt-[60px] font-[700] text-[36px]">
           <strong>Checkout</strong>
         </p>
@@ -26,7 +26,7 @@ const Home = () => {
         <PaymentMethod />
         <Billing />
       </div>
-      <div className="bg-[#EBECF3] pl-[60px]">
+      <div className="bg-[#EBECF3] pl-[60px] pr-[40%]">
         <div className="mt-[66px]">
           <Product />
         </div>

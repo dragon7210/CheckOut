@@ -6,7 +6,7 @@ type Props = {
 
 const Input = ({ topLabel, placeholder, icon }: Props) => {
   return (
-    <div className="px-[69px] py-[16px] rounded-[99px] border-[#D6D8EE] border-[1.5px] relative">
+    <div className="pl-[69px] py-4 rounded-[99px] border-[#D6D8EE] border-[1.5px] relative">
       <span className="absolute top-[-13px] left-[35px] text-[15px] bg-[#F5F5F5] px-3">
         {topLabel}
       </span>
